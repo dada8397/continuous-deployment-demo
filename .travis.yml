@@ -15,7 +15,7 @@ before_install:
 - gcloud auth activate-service-account --key-file client-secret.json
 
 install:
-- gcloud config set project test-project-271311
+- gcloud config set project ci-demo-271512
 
 script:
 - gcloud app deploy
